@@ -67,7 +67,7 @@
         class="grid grid-cols-1 md:grid-cols-2 gap-20 mt-8 text-center"
       >
         <div
-          class="p-4 rounded-xl border border-gray-700 grid grid-cols-1 gap-4"
+          class="p-4 md:p-12 rounded-xl border border-gray-700 grid grid-cols-1 gap-4"
         >
           <h2
             class="font-bold text-2xl text-gray-700"
@@ -85,7 +85,7 @@
           </button>
         </div>
         <div
-          class="p-4 rounded-xl border border-gray-700 grid grid-cols-1 gap-4"
+          class="p-4 md:p-12 rounded-xl border border-gray-700 grid grid-cols-1 gap-4"
         >
           <h2
             class="font-bold text-2xl text-gray-700"
