@@ -78,11 +78,12 @@
           <p class="text-xl">
             Make the parking system easier and more effective from the palm of your hand.
           </p>
-          <button
+          <a
+            href="/mobile"
             class="bg-blue-500 rounded-md py-3 px-4 font-bold text-white"
           >
             Explore!
-          </button>
+          </a>
         </div>
         <div
           class="p-4 md:p-12 rounded-xl border border-gray-700 grid grid-cols-1 gap-4"
@@ -96,11 +97,12 @@
           <p class="text-xl">
             We provide seamless parking services so you can make it easier than ever to keep people moving.
           </p>
-          <button
+          <a
+            href="/analytics"
             class="bg-blue-500 rounded-md py-3 px-4 font-bold text-white"
           >
             Explore!
-          </button>
+          </a>
         </div>
       </div>
     </section>
