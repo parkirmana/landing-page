@@ -77,12 +77,12 @@
           <p class="text-xl">
             Make the parking system easier and more effective from the palm of your hand.
           </p>
-          <a
-            href="/mobile"
+          <NuxtLink
+            to="/mobile"
             class="bg-blue-600 rounded-md py-3 px-4 font-bold text-white"
           >
             Explore!
-          </a>
+          </NuxtLink>
         </div>
         <div
           class="p-4 md:p-12 rounded-xl border border-gray-700 grid grid-cols-1 gap-8"
@@ -96,12 +96,12 @@
           <p class="text-xl">
             We provide seamless parking services so you can make it easier than ever to keep people moving.
           </p>
-          <a
-            href="/analytics"
+          <NuxtLink
+            to="/analytics"
             class="bg-blue-600 rounded-md py-3 px-4 font-bold text-white"
           >
             Explore!
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </section>
