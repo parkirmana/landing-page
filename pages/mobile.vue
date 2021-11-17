@@ -1,5 +1,6 @@
 <template>
     <div>
+        <SubscribeForm v-if="subscribeModal" @close="subscribeModal = !subscribeModal" />
         <Navbar />
         <section
             class="grid grid-cols-1 md:grid-cols-2 gap-16 py-12 md:py-32 px-8 md:px-32"
@@ -17,6 +18,7 @@
                 </p>
                 <button
                     class="bg-blue-500 rounded-md py-3 px-8 mt-5 text-white lg:w-1/2"
+                    @click="subscribeModal = true"
                 >
                     Request Demo
                 </button>
@@ -67,3 +69,13 @@
         <Footer />
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            subscribeModal: false
+        }
+    }
+}
+</script>
