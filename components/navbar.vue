@@ -7,7 +7,7 @@
             />
         </NuxtLink>
         <div class="text-white text-sm md:grid grid-cols-2 text-center hidden">
-            <a href="#" class="py-2 px-3">
+            <a href="/#products" class="py-2 px-3">
                 PRODUCTS
             </a>
             <NuxtLink to="/contact" class="py-2 px-8 border rounded-full border-white">

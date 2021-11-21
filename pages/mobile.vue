@@ -1,6 +1,6 @@
 <template>
     <div>
-        <SubscribeForm v-if="subscribeModal" @close="subscribeModal = !subscribeModal" />
+        <SubscribeForm v-if="subscribeModal" @close="subscribeModal = !subscribeModal" image="mobile-subs-form.svg" type="mobileSubscriber" />
         <Navbar />
         <section
             class="grid grid-cols-1 md:grid-cols-2 gap-16 py-12 md:py-32 px-8 md:px-32"

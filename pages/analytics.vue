@@ -1,5 +1,7 @@
 <template>
     <section>
+        <SubscribeForm v-if="subscribeModal" @close="subscribeModal = !subscribeModal" image="analytics-subs-form.png" type="analyticsSubscriber" />
+        <PartnershipForm v-if="partnershipModal" @close="partnershipModal = !partnershipModal" />
         <Navbar />
         <section
             class="grid grid-cols-1 md:grid-cols-2 gap-16 py-12 md:py-32 px-8 md:px-32"
@@ -17,6 +19,7 @@
                 </p>
                 <button
                     class="bg-blue-500 rounded-md py-3 px-8 mt-5 text-white lg:w-1/2"
+                    @click="subscribeModal = true"
                 >
                     Try our demo
                 </button>
@@ -52,6 +55,7 @@
             <h1 class="text-3xl font-bold text-white">Interested to become our partner?</h1>
             <button
                 class="bg-blue-500 rounded-md py-3 px-8 font-bold text-white mt-4 md:mt-0 md"
+                @click="partnershipModal = true"
             >
                 Apply Here!
             </button>
@@ -90,3 +94,14 @@
         <Footer />
     </section>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            subscribeModal: false,
+            partnershipModal: false,
+        }
+    }
+}
+</script>

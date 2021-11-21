@@ -56,6 +56,7 @@
     </section>
     <section
       class="py-12 px-8 md:px-20 mx-auto"
+      id="products"
     >
       <h1
         class="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-700 leading-10 text-center"
