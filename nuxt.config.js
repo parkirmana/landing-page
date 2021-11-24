@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'parkirmana-landingpage',
+    title: 'Parkirmana Landing Page',
     htmlAttrs: {
       lang: 'en'
     },
