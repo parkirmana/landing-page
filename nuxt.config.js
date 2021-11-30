@@ -51,26 +51,36 @@ export default {
     }
   },
 
+
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     [
       '@nuxtjs/firebase',
       {
         config: {
-          apiKey: process.env.FIREBASE_API_KEY,
+          apiKey: "AIzaSyC0LHNG-7X2KCSbJwYw0QQ-I77jJNjdQa0",
           authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-          projectId: process.env.FIREBASE_PROJECT_ID,
+          projectId: "parkirmana-id",
           storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
           messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-          appId: process.env.FIREBASE_APP_ID,
+          appId: "1:953202040636:web:f1958bed2cdbccff170839",
+          measurementId: "G-LN25333C5E",
         },
         services: {
           auth: true,
-          firestore: true
+          firestore: true,
+          analytics: true,
         }
       }
     ]
   ],
+
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
